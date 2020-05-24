@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2 style="text-align : center">{{ search | title }}</h2>
+
+    {% comment %} définition d'une ligne composé de 12 colonnes {% endcomment %}
+    <div class="row">
+       {% comment %} définition d'une petite colonne de taille 4/12 {% endcomment %}
+       <div class="col s4">
+             {% comment %} définition d'une carte qui sert à contenir l'image et le contenu {% endcomment %}
+             <div class="card">
+               {% comment %} définition d'une carte qui contient une image {% endcomment %}
+               <div class="card-image">
+                 {% comment %} lien et source de l'image {% endcomment %}
+                 <a href="/"><img src="https://media.istockphoto.com/photos/jack-russel-terrier-five-years-old-sitting-white-background-picture-id121196895" alt=""></a>
+               </div>
+             {% comment %} définition d'une carte qui contient le contenu {% endcomment %}
+             <div class="card-content">
+                 {% comment %} définition d'un paragraphe qui contient le paragraphe {% endcomment %}
+                 <p>TEST</p>
+             </div>
+             {% comment %} définition d'un lien contenant le prix {% endcomment %}
+             <div class="card-action">
+                 <a href="/">View listing: Price TEST PRICE</a>
+             </div>
+             </div>
+       </div>
+
+       {% comment %} définition d'une petite colonne de taille 4/12 {% endcomment %}
+       <div class="col s4">
+             {% comment %} définition d'une carte qui sert à contenir l'image et le contenu {% endcomment %}
+             <div class="card">
+               {% comment %} définition d'une carte qui contient une image {% endcomment %}
+               <div class="card-image">
+                 {% comment %} lien et source de l'image {% endcomment %}
+                 <a href="/"><img src="https://media.istockphoto.com/photos/jack-russel-terrier-five-years-old-sitting-white-background-picture-id121196895" alt=""></a>
+               </div>
+             {% comment %} définition d'une carte qui contient le contenu {% endcomment %}
+             <div class="card-content">
+                 {% comment %} définition d'un paragraphe qui contient le paragraphe {% endcomment %}
+                 <p>TEST</p>
+             </div>
+             {% comment %} définition d'un lien contenant le prix {% endcomment %}
+             <div class="card-action">
+                 <a href="/">View listing: Price TEST PRICE</a>
+             </div>
+             </div>
+       </div>
+
+       {% comment %} définition d'une petite colonne de taille 4/12 {% endcomment %}
+       <div class="col s4">
+             {% comment %} définition d'une carte qui sert à contenir l'image et le contenu {% endcomment %}
+             <div class="card">
+               {% comment %} définition d'une carte qui contient une image {% endcomment %}
+               <div class="card-image">
+                 {% comment %} lien et source de l'image {% endcomment %}
+                 <a href="/"><img src="https://media.istockphoto.com/photos/jack-russel-terrier-five-years-old-sitting-white-background-picture-id121196895" alt=""></a>
+               </div>
+             {% comment %} définition d'une carte qui contient le contenu {% endcomment %}
+             <div class="card-content">
+                 {% comment %} définition d'un paragraphe qui contient le paragraphe {% endcomment %}
+                 <p>TEST</p>
+             </div>
+             {% comment %} définition d'un lien contenant le prix {% endcomment %}
+             <div class="card-action">
+                 <a href="/">View listing: Price TEST PRICE</a>
+             </div>
+             </div>
+       </div>
+
+    </div>
+
+{% endblock content %}
